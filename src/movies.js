@@ -56,6 +56,10 @@ function scoresAverage(movies) {
       0})
   return scoreAvg;
 }
+//use roundedToTwo ()
+//let roundedToTwo = Math.round(anyNumber*100)/100;
+//console.log(roundedToTwo); // <== 5.68
+
 
 /*
 function sum (movies) {
@@ -103,6 +107,9 @@ const only = {
 
   return 
 }
+//use roundedToTwo ()
+//let roundedToTwo = Math.round(anyNumber*100)/100;
+//console.log(roundedToTwo); // <== 5.68
 
 
 
@@ -170,6 +177,16 @@ orderByYear('Shawshank Redemption', 'Cathedral', 'Moonspirit');
 
 
 // Iteration 6: Alphabetic Order - Order by title and print the first 20 titles
+/*
+Another popular way to order the movies is to sort them alphabetically 
+using the title key. However, in this case, we only need to print the title 
+of the first 20. Easy peasy for an expert like you. 😉
+Create a orderAlphabetically() function, that receives an array and 
+returns an array of first 20 titles, alphabetically ordered. 
+Return only the title of each movie, and if the array you receive has 
+less than 20 movies, return all of them.
+*/
+
 function orderAlphabetically() {}
 
 // BONUS - Iteration 7: Time Format - Turn duration of the movies from hours to minutes

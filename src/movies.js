@@ -101,11 +101,11 @@ function avg(array) {
 
 //use filter and include for drama
 function dramaMoviesScore(movies) {
-const only = {
+//const only = {
 
-}
+//}
 
-  return 
+//  return 
 }
 //use roundedToTwo ()
 //let roundedToTwo = Math.round(anyNumber*100)/100;
@@ -126,10 +126,10 @@ const only = {
 function orderByYear(movies) {
   //if (movie.year) {
 
-  }
-  movies.sort((a, b) => a - b);
+ // }
+  //movies.sort((a, b) => a - b);
 
-console.log(movies);
+//console.log(movies);
 }
 
 /*basic .sort():
